@@ -1,0 +1,10 @@
+name: ChristelBergstrom2024-1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python
+  - jupyterlab
+  - pip:
+    - -r requirements.txt
