@@ -1,12 +1,14 @@
 # Particle tracking for drug diffusion and dissolution in the mucus layer
 
-
-
 [Project description](https://biifsweden.github.io/projects/2024/04/23/ChristelBergstrom2024-1/)
 
 [Download code](archive/refs/heads/main.zip)
 
 ## Installation
+
+### Data pre-processing in FIJI
+The pre-processing of the data is done in FIJI software. To install FIJI follow the instructions on the [FIJI website](https://imagej.net/software/fiji/downloads).
+### The tracking algorithm 
 
 See [trackpy](https://soft-matter.github.io/trackpy/v0.6.2/) installation to run the trackpy notebook.
 
