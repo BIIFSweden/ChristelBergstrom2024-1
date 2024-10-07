@@ -24,8 +24,30 @@ This will install all necessary project dependencies.
 See [trackpy](https://soft-matter.github.io/trackpy/v0.6.2/) for further information about the Trackpy toolkit.
 
 ## Usage
+### Data pre-processing in FIJI
+Use [FIJI macro](notebooks/1_FIJIMacro_preprocessing_batch.ijm) for performing the batch pre-processing of all the data. The pre-processing consists of morphological top-hat operation with circular structuring element of size 10 and conversion into an 8-bit image.
 
-See [Trackpy notebook](notebooks/Trackpy_initial_tests.ipynb).
+### The tracking algorithm 
+Copy all project data to the [data](data) directory (or use symbolic links).
+
+Then run [Jupyter Lab](https://jupyter.org) from within the `ChristelBergstrom2024-1` conda environment:
+
+    cd <path to your 'ChristelBergstrom2024-1' directory>
+    conda activate ChristelBergstrom2024-1
+    jupyter-lab
+
+All analysis notebooks can be found in the [notebooks](notebooks) directory.
+
+See [Initial tests notebook](notebooks/Trackpy_initial_tests.ipynb) for detailed explanation of how to tune the tracking parameters on one data example.
+Use [Tracking notebook](notebooks/2_Trackpy_tracking_batch.ipynb) with tuned parameters for performing the batch processing on all the data.
+
+## Support
+
+If you find a bug, please [raise an issue](https://github.com/BIIFSweden/ChristelBergstrom2024-1/issues/new).
+
+## Authors
+
+[SciLifeLab BioImage Informatics Facility (BIIF)](https://biifsweden.github.io) project lead: Kristína Lidayová
 
 ## License
 
@@ -35,4 +57,4 @@ See [Trackpy notebook](notebooks/Trackpy_initial_tests.ipynb).
 
 [SciLifeLab BioImage Informatics Facility (BIIF)](https://www.scilifelab.se/units/bioimage-informatics/)
 
-Developed by [Christophe Avenel](mailto:christophe.avenel@it.uu.se)
+Developed by [Kristina Lidayova](mailto:kristina.lidayova@it.uu.se)
