@@ -45,10 +45,6 @@ Use [Tracking notebook](notebooks/2_Trackpy_tracking_batch.ipynb) with tuned par
 
 If you find a bug, please [raise an issue](https://github.com/BIIFSweden/ChristelBergstrom2024-1/issues/new).
 
-## Authors
-
-[SciLifeLab BioImage Informatics Facility (BIIF)](https://biifsweden.github.io) project lead: Kristína Lidayová
-
 ## License
 
 [MIT](LICENSE)
