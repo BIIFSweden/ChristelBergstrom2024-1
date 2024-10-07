@@ -8,9 +8,20 @@
 
 ### Data pre-processing in FIJI
 The pre-processing of the data is done in FIJI software. To install FIJI follow the instructions on the [FIJI website](https://imagej.net/software/fiji/downloads).
-### The tracking algorithm 
 
-See [trackpy](https://soft-matter.github.io/trackpy/v0.6.2/) installation to run the trackpy notebook.
+### The tracking algorithm 
+The tracking algorithm is implemented in Python.
+
+Install the [conda](https://conda.io) package, dependency and environment manager.
+
+Then create the `ChristelBergstrom2024-1` conda environment:
+
+    cd <path to your 'ChristelBergstrom2024-1' directory>
+    conda env create -f environment.yml
+
+This will install all necessary project dependencies.
+
+See [trackpy](https://soft-matter.github.io/trackpy/v0.6.2/) For further information about the Trackpy Toolkit.
 
 ## Usage
 
