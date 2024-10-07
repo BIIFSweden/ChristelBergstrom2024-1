@@ -10,7 +10,7 @@
 The pre-processing of the data is done in FIJI software. To install FIJI follow the instructions on the [FIJI website](https://imagej.net/software/fiji/downloads).
 
 ### The tracking algorithm 
-The tracking algorithm is implemented in Python.
+The tracking algorithm is implemented in Python using Trackpy toolkit.
 
 Install the [conda](https://conda.io) package, dependency and environment manager.
 
@@ -21,11 +21,11 @@ Then create the `ChristelBergstrom2024-1` conda environment:
 
 This will install all necessary project dependencies.
 
-See [trackpy](https://soft-matter.github.io/trackpy/v0.6.2/) For further information about the Trackpy Toolkit.
+See [trackpy](https://soft-matter.github.io/trackpy/v0.6.2/) for further information about the Trackpy toolkit.
 
 ## Usage
 
-See [Trackpy notebook](notebooks/2024_04_24_trackpy_initial_tests.ipynb).
+See [Trackpy notebook](notebooks/Trackpy_initial_tests.ipynb).
 
 ## License
 
