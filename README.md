@@ -27,6 +27,7 @@ See [trackpy](https://soft-matter.github.io/trackpy/v0.6.2/) for further informa
 ### Data pre-processing in FIJI
 Use [FIJI macro](notebooks/1_FIJIMacro_preprocessing_batch.ijm) for performing the batch pre-processing of all the data. The pre-processing consists of morphological top-hat operation with circular structuring element of size 10 and conversion into an 8-bit image.
 
+<a href="url"><img src="Pre-processing of images.jpg"></a>
 ### The tracking algorithm 
 Copy all project data to the [data](data) directory (or use symbolic links).
 
