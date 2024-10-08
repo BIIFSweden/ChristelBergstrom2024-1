@@ -40,7 +40,8 @@ Then run [Jupyter Lab](https://jupyter.org) from within the `ChristelBergstrom20
 All analysis notebooks can be found in the [notebooks](notebooks) directory.
 
 See [Initial tests notebook](notebooks/Trackpy_initial_tests.ipynb) for detailed explanation of how to tune the tracking parameters on one data example.
-Use [Tracking notebook](notebooks/2_Trackpy_tracking_batch.ipynb) with tuned parameters for performing the batch processing on all the data.
+
+Use [Tracking notebook](notebooks/2_Trackpy_tracking_batch.ipynb) for performing the batch processing on all the data. Copy the parameter settings tuned in the previous notebook and update the input and output folder location.
 
 ## Support
 
