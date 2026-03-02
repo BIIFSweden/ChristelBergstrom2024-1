@@ -31,8 +31,8 @@ See [trackpy](https://soft-matter.github.io/trackpy/v0.6.2/) for further informa
 ## Usage
 ### Data pre-processing in FIJI
 Use [FIJI macro](notebooks/1_FIJIMacro_preprocessing_batch.ijm) for performing the batch pre-processing of all the data. The pre-processing consists of morphological top-hat operation with circular structuring element of size 10 and conversion into an 8-bit image.
+<img width="1263" height="634" alt="github1" src="https://github.com/user-attachments/assets/99955788-002e-48ab-b576-e1469e87425f" />
 
-<a href="url"><img src="Image.jpg"></a>
 ### The tracking algorithm 
 Copy all project data to the [data](data) directory (or use symbolic links).
 
@@ -47,6 +47,8 @@ All analysis notebooks can be found in the [notebooks](notebooks) directory.
 See [Initial tests notebook](notebooks/Trackpy_initial_tests.ipynb) for detailed explanation of how to tune the tracking parameters on one data example.
 
 Use [Tracking notebook](notebooks/2_Trackpy_tracking_batch.ipynb) for performing the batch processing on all the data. Copy the parameter settings tuned in the previous notebook and update the input and output folder location.
+
+<img width="1263" height="634" alt="github2" src="https://github.com/user-attachments/assets/bd795479-8917-45aa-8890-f9924147433d" />
 
 ## Support
 
