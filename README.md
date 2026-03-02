@@ -62,4 +62,4 @@ If you find a bug, please [raise an issue](https://github.com/BIIFSweden/Christe
 
 [SciLifeLab BioImage Informatics Facility (BIIF)](https://www.scilifelab.se/units/bioimage-informatics/)
 
-Developed by [Kristína Lidayová](mailto:kristina.lidayova@it.uu.se)
+Developed by [Kristína Lidayová](mailto:kristina.lidayova@it.uu.se)  and [Christophe Avenel](mailto:christophe.avenel@it.uu.se)
